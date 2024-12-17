@@ -17,12 +17,11 @@ cursor-pointer flex justify-center items-center'>Gajendra Nursery</h1>
     </div>
     <div className={`bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl font-writingFont">
-        <Link to="/"><li className="hover:text-green-600">Home</li></Link>
-        {/* <Link to="/Product"><li className="hover:text-green-600">Products & Decorations</li></Link>
-        <Link to="/Blog"><li className="hover:text-green-600">Blog</li></Link>
-        <Link to="/AboutUs"><li className="hover:text-green-600">About us</li></Link>
-        <Link to="/AboutUs"><li className="hover:text-green-600">Client Dairies</li></Link>
-        <Link to="/cart"><li className="hover:text-green-600">Cart</li></Link> */}
+        <Link to="/"><li className="hover:text-purple-600">Home</li></Link>
+        <Link to="#"><li className="hover:text-purple-600">Appointment</li></Link>
+        <Link to="#"><li className="hover:text-purple-600">Blog</li></Link>
+        <Link to="#"><li className="hover:text-purple-600">About us</li></Link>
+        <Link to="#"><li className="hover:text-purple-600">Client Dairies</li></Link>
         </ul>
     </div>
     <div>
