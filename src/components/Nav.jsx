@@ -10,7 +10,7 @@ const toggleNavMenu = () => setIsNavOpen(!isNavOpen);
 return (
     <nav className="flex justify-between px-6 py-3 z-50 relative">
     <div className="flex justify-center items-center">
-        <img className="w-10 h-10 mr-3" src="./assets/logo.png" alt="Logo" />
+        <img className="w-10 h-10 mr-3" src="/assets/logo.png" alt="Logo" />
         <h1 className='text-black ml-6  text-sm md:text-2xl font-LogoFont
 cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
 
