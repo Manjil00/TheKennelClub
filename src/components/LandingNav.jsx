@@ -17,8 +17,8 @@ cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
     </div>
     <div className={`bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl font-writingFont">
-        <Link to="/"><li className="hover:text-purple-600">Home</li></Link>
-        <Link to="#"><li className="hover:text-purple-600">Appointment</li></Link>
+        <Link to="/login"><li className="hover:text-purple-600">Login</li></Link>
+        <Link to="/register"><li className="hover:text-purple-600">Register</li></Link>
         </ul>
     </div>
     <div>
