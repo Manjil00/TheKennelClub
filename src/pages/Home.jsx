@@ -8,6 +8,8 @@ return (
     <div className='main-container h-full w-full'>
         <Nav/>
 
+        <div className="section1">
+        </div>
 
         <Footer/>
     </div>
