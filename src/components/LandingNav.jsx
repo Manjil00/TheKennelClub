@@ -8,17 +8,17 @@ const LandingNav = () => {
 const toggleNavMenu = () => setIsNavOpen(!isNavOpen);
 
 return (
-    <nav className="flex justify-between px-6 py-3 z-50 relative">
+    <nav className="flex justify-between items-center px-6 py-3 z-50 relative ">
     <div className="flex justify-center items-center">
         <img className="w-10 h-10 mr-3" src="/src/assets/logo.png" alt="Logo" />
         <h1 className='text-black ml-6  text-sm md:text-2xl
 cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
     </div>
-
-    <div className={`bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
-        <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl ">
-        <Link to="/login"><li className="border-2 border-purple-600 p-2 rounded-lg hover:text-purple-600">Login</li></Link>
-        <Link to="/register"><li className="border-2 border-purple-600 p-2 rounded-lg hover:text-purple-600">Register</li></Link>
+    
+    <div className={`bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col justify-end md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
+        <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl">
+        <Link to="/login"><li className="border-2 border-purple-600 p-2 rounded-lg hover:text-white hover:bg-purple-800">Login</li></Link>
+        <Link to="/register"><li className="border-2 border-purple-600 p-2 rounded-lg hover:text-white hover:bg-purple-800">Register</li></Link>
         </ul>
     </div>
     <div>
