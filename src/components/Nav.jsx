@@ -20,7 +20,7 @@ cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
         <Link to="/"><li className="hover:text-purple-800">Home</li></Link>
         <Link to="#"><li className="hover:text-purple-800">Appointment</li></Link>
         <Link to="#"><li className="hover:text-purple-800">Blog</li></Link>
-        <Link to="#"><li className="hover:text-purple-600">About us</li></Link>
+        <Link to="#"><li className="hover:text-purple-800">About us</li></Link>
         <Link to="#"><li className="hover:text-purple-600">Client Dairies</li></Link>
         </ul>
     </div>
