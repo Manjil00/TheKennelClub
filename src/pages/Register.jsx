@@ -2,9 +2,9 @@ import React from 'react'
 
 const Register = () => {
 return (
-    <div>
+<div className='mainContainer w-full h-[100vh]'>
     
-    </div>
+</div>
 )
 }
 
