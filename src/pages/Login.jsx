@@ -2,7 +2,7 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div>
+    <div className='mainContainer w-full h-[100vh]'>
       
     </div>
   )
