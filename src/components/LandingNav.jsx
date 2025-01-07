@@ -8,7 +8,7 @@ const LandingNav = () => {
 const toggleNavMenu = () => setIsNavOpen(!isNavOpen);
 
 return (
-    <nav className="flex justify-between items-center px-6 py-3 z-50 relative ">
+    <nav className="flex justify-between items-center px-6 py-1 z-50 relative ">
     <div className="flex justify-center items-center">
         <img className="w-10 h-10 mr-3" src="/src/assets/logo.png" alt="Logo" />
         <h1 className='text-black ml-6  text-sm md:text-2xl
