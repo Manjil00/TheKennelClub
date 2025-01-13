@@ -12,7 +12,7 @@ const Login = () => {
 
       </div>
 
-  <div className="rightSection w-[50%] h-[200px] bg-teal-800">
+  <div className="rightSection w-[50%] h-[200px] bg-blue-800">
 
   </div>
 </div>
