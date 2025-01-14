@@ -8,7 +8,7 @@ const Login = () => {
 
 
   <div className="InnerContainer w-full h-auto px-20 py-4 flex justify-evenly items-center gap-10">
-      <div className="leftSection w-[50%] h-[200px] bg-teal-800">
+      <div className="leftSection w-[50%] h-[200px] bg-teal-800 rounded-xl">
 
       </div>
 
