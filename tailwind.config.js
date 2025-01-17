@@ -9,3 +9,7 @@ export default {
   },
   plugins: [],
 }
+
+
+
+//main color: teal-800 and purple-800
