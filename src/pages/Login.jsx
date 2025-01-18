@@ -14,7 +14,7 @@ const Login = () => {
   <div className="rightPatch w-[90%]  md:w-[30%] h-[400px] md:h-[500px]  rounded-xl  border-2 border-slate-400 flex justify-center items-center">
         
   <div className="inputscontainer  w-[300px] h-full flex flex-col justify-center items-center gap-5">
-        <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold p-1 w-full h-[40px] rounded-sm flex justify-center items-center gap-10">
+        <button className="bg-blue-700 text-white font-bold p-1 w-full h-[40px] rounded-lg flex justify-center items-center gap-10">
         <img src='/icons/GIcon.png' className='h-[30px] w-[30px] rounded-md' alt='google'/>
         <h2 className="signup font-sans">Signup with Google</h2>
         </button>
@@ -26,7 +26,11 @@ const Login = () => {
         <input className='w-full h-[40px] p-5 rounded-xl placeholder-slate-500  border-slate-300 border-2' placeholder='Password'/>
         </div>
         
-        <label className='font-sans text-xs'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
+        <label className='font-sans text-sm'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
+
+        <button className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white'>Get started for free</button>
+
+        <div className="label text-sm">Don't have an account? <span className='underline text-blue-700 cursor-pointer'>Register</span></div>
   </div>
         
 
