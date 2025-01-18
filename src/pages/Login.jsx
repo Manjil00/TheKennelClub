@@ -14,7 +14,7 @@ const Login = () => {
 
   <div className="rightPatch py-3 w-[90%]  md:w-[30%] h-[400px] md:h-[500px]  rounded-xl  border-2 border-slate-400 flex justify-center items-center">
         
-  <div className="inputscontainer  w-[300px] h-full flex flex-col justify-center items-center gap-5">
+  <div className="inputContainer  w-[300px] h-full flex flex-col justify-center items-center gap-5">
         <button className="bg-blue-700 text-white font-bold p-1 w-full h-[40px] rounded-lg flex justify-center items-center gap-10">
         <img src='/icons/GIcon.png' className='h-[30px] w-[30px] rounded-md' alt='google'/>
         <h2 className="signup font-sans">Signup with Google</h2>
