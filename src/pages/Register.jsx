@@ -25,7 +25,7 @@ return (
                 <input className='w-full h-[40px] p-5 rounded-xl  placeholder-slate-500 border-slate-300 border-2' placeholder='Fullname'/>
                 <input className='w-full h-[40px] p-5 rounded-xl  placeholder-slate-500 border-slate-300 border-2' placeholder='Email'/>
                 <input className='w-full h-[40px] p-5 rounded-xl  placeholder-slate-500 border-slate-300 border-2' placeholder='PhoneNumber'/>
-                <input className='w-full h-[40px] p-5 rounded-xl placeholder-slate-500  border-slate-300 border-2' placeholder='Password'/>
+                <input  type='password'  className='w-full h-[40px] p-5 rounded-xl placeholder-slate-500  border-slate-300 border-2' placeholder='Password'/>
                 </div>
                 
                 <label className='font-sans text-sm'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
