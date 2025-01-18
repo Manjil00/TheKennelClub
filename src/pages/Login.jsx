@@ -1,24 +1,36 @@
-import React from 'react'
+import React from 'react';
 import LandingNav from '../components/LandingNav';
+import LeftPatch from '../components/LeftPatch';
 
 const Login = () => {
   return (
     <div className='mainContainer w-full h-auto'>
       <LandingNav/>
 
-  <div className="InnerContainer w-full h-auto md:px-20 py-4 flex flex-col md:flex-row justify-evenly items-center md:gap-10">
-    <div className="leftSection w-[90%] md:w-[50%] h-auto md:h-[500px] rounded-xl p-5 md:p-16 flex flex-col justify-center items-start gap-5 md:gap-10">
-      <h1 className="title text-black text-sm md:text-4xl font-bold font-serif">Join The Kennel Club: Connecting Vet Doctors and Dog Lovers Across Nepal</h1>
-      <div className="h2 text-black text-xs md:text-xl">
-      <h2>Seamless care for your furry friends 🐾</h2>
-      <h2 className='mt-4'>Built for Vet Doctors and Dog Owners</h2>
-      <h2 className='mt-4'>30-day free trial for premium features</h2>
-      </div>
+  <div className="InnerContainer w-full h-auto md:px-20 py-5 flex flex-col md:flex-row justify-center items-center">
+    
+    <LeftPatch/>
 
-    </div>
+  <div className="rightPatch w-[90%]  md:w-[30%] h-[400px] md:h-[500px]  rounded-xl  border-2 border-slate-400 flex justify-center items-center">
+        
+  <div className="inputscontainer  w-[300px] h-full flex flex-col justify-center items-center gap-5">
+        <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold p-1 w-full h-[40px] rounded-sm flex justify-center items-center gap-10">
+        <img src='/icons/GIcon.png' className='h-[30px] w-[30px] rounded-md' alt='google'/>
+        <h2 className="signup font-sans">Signup with Google</h2>
+        </button>
 
-  <div className="rightSection w-[90%] md:w-[50%] h-[400px] md:h-[500px] bg-teal-800 rounded-xl">
+        <h1 className='text-slate-500 font-bold'>OR</h1>
 
+        <div className="inputs  text-black flex flex-col gap-5 w-full">
+        <input className='w-full h-[40px] p-5 rounded-xl  placeholder-slate-500 border-slate-300 border-2' placeholder='Username'/>
+        <input className='w-full h-[40px] p-5 rounded-xl placeholder-slate-500  border-slate-300 border-2' placeholder='Password'/>
+        </div>
+        
+        <label className='font-sans text-xs'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
+  </div>
+        
+
+        
   </div>
 </div>
 
