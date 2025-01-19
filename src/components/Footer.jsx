@@ -10,3 +10,7 @@ return (
 }
 
 export default Footer;
+
+
+// import { FaQuoteLeft } from "react-icons/fa";
+// <FaQuoteLeft />
