@@ -40,6 +40,25 @@ const Landing = () => {
       <HowWorks/>
     </div>
 
+    <div className="Section3Demos w-full h-[200px] bg-green-700 mt-32 md:mt-5">
+    <div className="toptittle flex flex-col justify-center items-center">
+        <GoChevronDown className='w-[50px] h-[50px] md:w-[60px] md:h-[60px] opacity-60 animate-bounce'/>
+        <h1 className="title text-center w-full h-auto text-xl md:text-3xl font-serif font-bold">Demo</h1>
+    </div>
+    
+    <div className="VideoContent w-full h-auto px-10">
+    <iframe
+            width="560"
+            height="315"
+            src="https://youtu.be/H58vbez_m4E?si=SGOTtPLAkefEz-n_"
+            title="YouTube player"
+            frameBorder="0"
+            allowFullScreen
+        ></iframe>
+    </div>
+
+    </div>
+
 
     </div>
   )

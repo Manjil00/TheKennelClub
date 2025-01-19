@@ -2,7 +2,7 @@ import React from 'react';
 
 const HowWorks = () => {
 return (
-    <div className="Section2Content w-full h-auto mt-10 px-5 flex flex-col justify-center items-center gap-10 md:py-10">
+    <div className="Section2Content bg-red-700  w-full h-auto mt-10 px-5 flex flex-col justify-center items-center gap-10 md:py-10">
         <div className="works1 w-full h-[400px] md:h-auto flex flex-col md:flex-row justify-evenly items-center ">
             <img src='#' className='w-full md:w-[400px] h-[200px] rounded-xl bg-black' alt='woirkimg'/>
             <div className="content1text w-full md:w-[500px] h-auto flex flex-col justify-center items-center gap-8">

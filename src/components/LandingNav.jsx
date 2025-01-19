@@ -18,7 +18,7 @@ cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
     <div className={`bg-white md:bg-transparent absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col justify-end md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-center md:items-center text-sm md:text-base ml-1">
         <Link to="/"><li className="text-black">How it works</li></Link>
-        <Link to="/"><li className="text-black">Demos</li></Link>
+        <Link to="/"><li className="text-black">Demo</li></Link>
         <Link to="/"><li className="text-black">Testimonials</li></Link>
         <Link to="/"><li className="text-black">Price</li></Link>
         <Link to="/"><li className="text-black">FAQ</li></Link>
