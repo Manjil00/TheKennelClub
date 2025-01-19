@@ -8,13 +8,12 @@ import { GoChevronDown } from "react-icons/go";
 
 const Landing = () => {
 
-  const offset = 200;
-  const duration = 600;
-  useEffect(()=>{
-      document.title = "The Kennel Club";
-      Aos.init({offset:50,duration:200});
-  },[offset,
-      duration])
+  // const offset = 200;
+  // const duration = 600;
+  // useEffect(()=>{
+  //     Aos.init({offset:50,duration:200});
+  // },[offset,
+  //     duration])
 
   return (
     <div className='w-full h-[100vh]'>
