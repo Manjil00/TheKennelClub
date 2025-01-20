@@ -19,7 +19,6 @@ cursor-pointer flex justify-center items-center'>The Kennel Club</h1>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl font-writingFont">
         <Link to="/"><li className="hover:text-purple-600">Home</li></Link>
         <Link to="#"><li className="hover:text-purple-600">Appointment</li></Link>
-        <Link to="#"><li className="hover:text-purple-600">Blog</li></Link>
         </ul>
     </div>
     <div>
