@@ -2,11 +2,13 @@ import React from 'react';
 import HowWorks from '../components/HowWorks';
 import LandingNav from '../components/LandingNav';
 import Pricings from '../components/Pricings';
+import Testimonials from '../components/Testimonials';
+import Newsletter from '../components/Newsletter';
 
 //icons
 import { GoChevronDown } from "react-icons/go";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
-import Testimonials from '../components/Testimonials';
+
 
 
 const Landing = () => {
@@ -64,7 +66,19 @@ const Landing = () => {
 
 <Pricings/>
 
-<NewsLetter/>
+<div className="flexing flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10">
+    <div className="flex1 w-[50%] h-auto bg-red-600">
+      <h1 className="ttile font-sans font-semibold text-xl md:text-4xl">Trusted all over Nepal</h1>
+      <h2 className="trusted mt-5 text-base">The Kennel Club is highly rated and loved platform for our clients and users with exceptional reliability, performance and User friendly features.</h2>
+    </div>
+</div>
+
+
+
+<div className="map-container w-full py-5 h-auto flex justify-center items-center mt-44 md:mt-2 gap-3 md:gap-10">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.277768285356!2d85.28493274196482!3d27.709030242226834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1737314166916!5m2!1sen!2snp" className='w-[95%] h-[200px] md:h-[450px] rounded-md' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
 
 </div>
   )
