@@ -6,6 +6,7 @@ import Pricings from '../components/Pricings';
 //icons
 import { GoChevronDown } from "react-icons/go";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
+import Testimonials from '../components/Testimonials';
 
 
 const Landing = () => {
@@ -59,23 +60,11 @@ const Landing = () => {
 </div>
 
 
-
-<div className="Section4 w-full h-auto mt-10 md:mt-5 flex flex-col items-center font-serif">
-  <div className="greybg bg-slate-200 rounded-xl w-[95%] h-auto py-10">
-        <h1 className="title text-center w-full h-auto text-xl md:text-3xl font-serif font-bold">Testimonials</h1>
-        <div className="Testimonials w-full h-auto p-10 flex flex-col md:flex-row justify-center items-center  gap-2 md:gap-10 ">
-          <img src='/images/Testimonial1.png' className=' w-[95%] h-[200px] md:w-[450px] md:h-[270px] py-2 rounded-xl cursor-pointer' alt='img1'/>
-          <img src='/images/Testimonial2.png' className=' w-[95%] h-[200px] md:w-[450px] md:h-[270px] py-2 rounded-xl cursor-pointer' alt='img2'/>
-          <img src='/images/Testimonial3.png' className=' w-[95%] h-[200px] md:w-[450px] md:h-[270px] py-2 rounded-xl cursor-pointer' alt='img3'/>
-        </div>
-  </div>
-</div>
+<Testimonials/>
 
 <Pricings/>
 
-<div className="map w-full h-auto flex justify-center items-center mt-44 md:mt-2">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.277768285356!2d85.28493274196482!3d27.709030242226834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1737314166916!5m2!1sen!2snp" className='w-[95%] h-[200px] md:h-[450px] rounded-md' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+<NewsLetter/>
 
 </div>
   )
