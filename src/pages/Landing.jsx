@@ -3,7 +3,6 @@ import HowWorks from '../components/HowWorks';
 import LandingNav from '../components/LandingNav';
 import Pricings from '../components/Pricings';
 import Testimonials from '../components/Testimonials';
-import Newsletter from '../components/Newsletter';
 
 //icons
 import { GoChevronDown } from "react-icons/go";
@@ -64,13 +63,22 @@ const Landing = () => {
 
 <Testimonials/>
 
-<Pricings/>
+{/* <Pricings/> */}
 
-<div className="flexing flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10">
-    <div className="flex1 w-[50%] h-auto bg-red-600">
+<div className="flexing#1 flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10 mt-10">
+    <div className=' bg-slate-200 p-5 rounded-xl w-[95%] md:w-[50%] h-auto'>
+
+    <div className="flex1">
       <h1 className="ttile font-sans font-semibold text-xl md:text-4xl">Trusted all over Nepal</h1>
       <h2 className="trusted mt-5 text-base">The Kennel Club is highly rated and loved platform for our clients and users with exceptional reliability, performance and User friendly features.</h2>
     </div>
+
+    <div className="emopjis grid grid-cols-2 justify-center items-center gap-5">
+      
+    </div>
+
+    </div>
+  
 </div>
 
 

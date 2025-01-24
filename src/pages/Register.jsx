@@ -53,7 +53,7 @@ return (
         
                 <button type='submit' className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white'>Get started for free</button>
         
-                <div className="label text-sm">Already have an account? <span className='underline text-blue-700 cursor-pointer'><Link to="/register">Log In</Link></span></div>
+                <div className="label text-sm">Already have an account? <span className='underline text-blue-700 cursor-pointer'><Link to="/login">Log In</Link></span></div>
         </form>
         </div>
 
