@@ -8,6 +8,7 @@ import Trusted from '../components/Trusted';
 //icons
 import { GoChevronDown } from "react-icons/go";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
+// import PricingsMobile from '../components/PricingsMobile';
 
 
 
@@ -65,6 +66,7 @@ const Landing = () => {
 <Testimonials/>
 
 {/* <Pricings/> */}
+{/* <PricingsMobile/> */}
 
 <Trusted/>
 

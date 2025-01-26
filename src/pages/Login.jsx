@@ -24,7 +24,7 @@ return (
     
     <LeftPatch/>
 
-  <div className="rightPatch py-3 w-[90%]  md:w-[30%] h-[400px] md:h-[500px]  rounded-xl  border-2 border-slate-400 flex justify-center items-center">
+  <div className="rightPatch py-3 w-[90%]  md:w-[30%] h-auto md:h-[500px]  rounded-xl  border-2 border-slate-400 flex justify-center items-center">
         
   <form onSubmit={handlelogin}
   className="inputContainer  w-[300px] h-full flex flex-col justify-center items-center gap-5">
