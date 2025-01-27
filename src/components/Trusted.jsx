@@ -10,10 +10,10 @@ return (
     <h2 className="trusted mt-5 text-base"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dignissimos. Excepturi tempore voluptatibus voluptatem quia fuga reprehenderit quam quidem maiores quod magni autem doloribus labore eligendi ducimus provident, deleniti illo. The Kennel Club is highly rated and loved platform for our clients and users with exceptional reliability, performance and User friendly features.</h2>
     
     <div className="img flex justify-evenly items-center p-5 ">
-    <img src='/icons/loading.png' className=' w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='emoji1'/>
-    <img src='/images/afterCompletingAppointment.png' className=' w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='emoji2'/>
-    <img src='/icons/loading.png' className=' w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='emoji3'/>
-    <img src='/images/afterCompletingAppointment.png' className=' w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='emoji4'/>
+    <img src='/icons/loading.png' className='w-[60px] h-[60px]' alt='emoji1'/>
+    <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='emoji2'/>
+    <img src='/icons/loading.png' className='w-[60px] h-[60px]' alt='emoji3'/>
+    <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='emoji4'/>
     </div>
     </div>
 
@@ -29,12 +29,12 @@ return (
         </div>
 
         <div className="one" id="3">
-        <img src='/images/afterCompletingAppointment.png' className='w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='tropphy'/>
+        <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='tropphy'/>
         <h2 className='font-sans'>Product of the weeek adn month and year</h2>
         </div>
 
         <div className="one" id="4">
-        <img src='/images/afterCompletingAppointment.png' className='w-[30px] h-[30px] md:w-[60px] md:h-[60px]' alt='handsshakingemoji'/>
+        <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='handsshakingemoji'/>
         <h2 className='font-sans'>Product of the weeek adn month and year</h2>
         </div>
     </div>
