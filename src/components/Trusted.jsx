@@ -29,12 +29,12 @@ return (
         </div>
 
         <div className="one" id="3">
-        <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='tropphy'/>
+        <img src='/icons/trophy.png' className='w-[60px] h-[60px]' alt='tropphy'/>
         <h2 className='font-sans'>Product of the weeek adn month and year</h2>
         </div>
 
         <div className="one" id="4">
-        <img src='/images/afterCompletingAppointment.png' className='w-[60px] h-[60px]' alt='handsshakingemoji'/>
+        <img src='/icons/handshake.png' className='w-[60px] h-[60px]' alt='handsshakingemoji'/>
         <h2 className='font-sans'>Product of the weeek adn month and year</h2>
         </div>
     </div>

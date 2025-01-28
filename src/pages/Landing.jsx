@@ -4,7 +4,7 @@ import LandingNav from '../components/LandingNav';
 // import Pricings from '../components/Pricings';
 import Testimonials from '../components/Testimonials';
 import Trusted from '../components/Trusted';
-import PricingsMobile from '../components/PricingsMobile';
+// import PricingsMobile from '../components/PricingsMobile';
 
 //icons
 import { GoChevronDown } from "react-icons/go";
@@ -22,7 +22,7 @@ const Landing = () => {
   //     duration])
 
   return (
-    <div className='w-full h-[100vh]'>
+    <div className='w-full h-auto'>
       <LandingNav/>
 
       <div className="SectionContainer w-full h-[500px] flex flex-col md:flex-row justify-center items-center mt-24 md:mt-0">
@@ -30,7 +30,7 @@ const Landing = () => {
             <h1 className="title text-black text-3xl md:text-4xl font-bold font-serif">Connecting Vet Doctors and Pet Owners for <span className='text-dogblue'>Healthier</span>, <span className='text-productbrown'>Happier</span> Pets.</h1>
             <div className="h2 text-black text-xs md:text-xl mt-5">
             <p className='text-sm'><span className='text-purple-800'>The Kennel Club</span>, Nepal’s premier platform designed to bridge the gap between pet owners and veterinary professionals. From managing your furry friend’s health records to booking vet appointments and accessing trusted advice. Join us in creating a community where dogs receive the love and care they deserve, and their humans enjoy peace of mind!</p>
-            <button className='w-[350px] h-[40px] text-white bg-purple-600 mt-5 rounded-xl flex justify-center items-center gap-3'><HiOutlineClipboardDocumentList /> Get Your Pet's Appointment</button>
+            <button className='w-[250px] md:w-[350px] h-[40px] text-base md:text-xl text-white bg-purple-600 mt-5 rounded-xl flex justify-center items-center gap-3'><HiOutlineClipboardDocumentList /> Get Your Pet's Appointment</button>
             </div>
         </div>
         <div className="picture w-[90%] md:w-[48%] h-[250px] md:h-[500px] p-5 md:p-16 flex flex-col justify-center items-start md:gap-10">
@@ -66,7 +66,7 @@ const Landing = () => {
 <Testimonials/>
 
 {/* <Pricings/> */}
-<PricingsMobile/>
+{/* <PricingsMobile/> */}
 
 <Trusted/>
 
