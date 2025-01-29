@@ -4,7 +4,7 @@ import LandingNav from '../components/LandingNav';
 // import Pricings from '../components/Pricings';
 import Testimonials from '../components/Testimonials';
 import Trusted from '../components/Trusted';
-// import PricingsMobile from '../components/PricingsMobile';
+import PricingsMobile from '../components/PricingsMobile';
 
 //icons
 import { GoChevronDown } from "react-icons/go";
@@ -66,7 +66,7 @@ const Landing = () => {
 <Testimonials/>
 
 {/* <Pricings/> */}
-{/* <PricingsMobile/> */}
+<PricingsMobile/>
 
 <Trusted/>
 
