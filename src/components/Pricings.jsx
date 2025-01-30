@@ -1,17 +1,18 @@
 import React from 'react';
 import PricingsDesktop from './PricingsDesktop';
+import PricingsMobile from './PricingsMobile';
 
 
 const Pricings = () => {
 return (
 <>
-<div className="pricingDesktop">
+<div className="pricingDesktop hidden md:block">
     <PricingsDesktop/>
 </div>
 
 
-<div className="pricingmobile">
-
+<div className="pricingmobile block md:hidden">
+    <PricingsMobile/>
 </div>
 </>
 )

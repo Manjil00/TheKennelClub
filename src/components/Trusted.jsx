@@ -6,7 +6,7 @@ return (
     <div className=' bg-slate-200 p-5 rounded-xl w-[95%] h-auto flex flex-col md:flex-row justify-center items-center gap-5'>
 
     <div className="flex1 w-full md:w-[50%]">
-    <h1 className="ttile font-sans font-bold text-xl md:text-3xl text-center">Trusted all over <span className='p-2 bg-red-700 rounded-xl'>Nepal </span></h1>
+    <h1 className="ttile font-sans font-bold text-xl md:text-3xl text-center">Trusted all over <span className='p-2 bg-red-600 rounded-xl text-white'>Nepal </span></h1>
     <h2 className="trusted mt-5 text-base"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dignissimos. Excepturi tempore voluptatibus voluptatem quia fuga reprehenderit quam quidem maiores quod magni autem doloribus labore eligendi ducimus provident, deleniti illo. The Kennel Club is highly rated and loved platform for our clients and users with exceptional reliability, performance and User friendly features.</h2>
     
     <div className="img flex justify-evenly items-center p-5 ">
@@ -24,7 +24,7 @@ return (
         </div>
 
         <div className="one" id="2">
-        <h1 className='text-4xl md:text-6xl'>#1</h1>
+        <h1 className='text-4xl md:text-6xl'>4.5 / 5</h1>
         <h2 className='font-sans'>Product of the weeek adn month and year</h2>
         </div>
 
