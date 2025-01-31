@@ -14,6 +14,8 @@ const handlelogin = (e)=>{
   console.log(phoneNo,password);
   setPassword("");
   setPhoneNo("");
+
+
 }
 return (
 
@@ -48,7 +50,7 @@ return (
         <label className='font-sans text-sm'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
 
         <button type='submit'
-        className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white font-bold'>Get started for free</button>
+        className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white font-bold'>  <Link  to="/home">Get started for free</Link></button>
 
         <div className="label text-sm">Don't have an account? <span className='underline text-blue-700 cursor-pointer'><Link to="/register">Register</Link></span></div>
 

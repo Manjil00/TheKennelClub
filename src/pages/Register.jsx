@@ -51,7 +51,7 @@ return (
                 
                 <label className='font-sans text-sm'>By logging in, you are agreeing to TheKennel Club's <span className='underline text-blue-700 cursor-pointer'>Terms of Service</span> and <span className='underline text-blue-700 cursor-pointer'>privacy policy</span></label>
         
-                <button type='submit' className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white'>Get started for free</button>
+                <button type='submit' className='mx-auto bg-purple-700 w-full h-[40px] rounded-lg text-white'><Link  to="/home">Get started for free</Link></button>
         
                 <div className="label text-sm">Already have an account? <span className='underline text-blue-700 cursor-pointer'><Link to="/login">Log In</Link></span></div>
         </form>
